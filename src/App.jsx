@@ -13,6 +13,7 @@ import "./App.css";
 import RequestAirdrop from "./components/RequestAirdrop";
 import SendToken from "./components/SendToken";
 import ShowBalance from "./components/ShowBalance";
+import SignMessage from "./components/SignMessage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +28,7 @@ function App() {
             <RequestAirdrop />
             <ShowBalance />
             <SendToken />
+            <SignMessage />
           </WalletModalProvider>
         </WalletProvider>
       </ConnectionProvider>
